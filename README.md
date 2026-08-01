@@ -128,7 +128,7 @@ yolo26-ripeloc-lite/
 
 ## Dataset
 
-The 1,500-image greenhouse tomato dataset (6,227 annotations) is available upon request with a Data Use Agreement (DUA). Contact: irfan.hussain@ku.ac.ae
+The 1,500-image greenhouse tomato dataset (6,227 annotations) is available upon request with a Data Use Agreement (DUA). 
 
 | Split | Images | Ripe | Unripe | Total |
 |-------|--------|------|--------|-------|
@@ -145,18 +145,7 @@ The 1,500-image greenhouse tomato dataset (6,227 annotations) is available upon 
 | Multi-seed run 2 | 42 |
 | Multi-seed run 3 | 123 |
 
-## Citation
 
-```bibtex
-@article{singh2026yolo26ripeloc,
-  title={YOLO26-RipeLoc Lite: A Lightweight Architecture for Tomato Ripeness
-         Detection and Picking Point Localization in Greenhouse Robotic Harvesting},
-  author={Singh, Rajmeet and Kaur, Manveen and Alirezaee, Shahpour and Hussain, Irfan},
-  journal={Computers and Electronics in Agriculture},
-  year={2026},
-  publisher={Elsevier}
-}
-```
 
 ## License
 
