@@ -1,0 +1,7 @@
+# Training split: 1050 images (70%)
+# Format: one image path per line
+images/train/IMG_0001.jpg
+images/train/IMG_0002.jpg
+images/train/IMG_0003.jpg
+# ... (1050 entries total)
+# Generate with: ls images/train/*.jpg > data/splits/train.txt

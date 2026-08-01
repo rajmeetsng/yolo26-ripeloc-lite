@@ -1,0 +1,8 @@
+# YOLO format with center-point keypoint extension
+# Format: class x_center y_center width height [cx cy]
+# class: 0=unripe, 1=ripe
+# All coordinates normalized to [0, 1]
+# cx, cy: center-point keypoint (ripe class only)
+1 0.4523 0.3281 0.1250 0.1406 0.4523 0.3281
+1 0.7148 0.5625 0.0938 0.1094 0.7102 0.5598
+0 0.2891 0.6719 0.0781 0.0938

@@ -1,0 +1,10 @@
+phase1: {epochs: 50, lr0: 0.002, freeze: 10, optimizer: SGD, momentum: 0.937, weight_decay: 0.0005}
+phase2: {epochs: 80, lr0: 0.001, freeze: 5, optimizer: SGD, momentum: 0.937, weight_decay: 0.0005}
+phase3: {epochs: 120, lr0: 0.0003, freeze: 0, optimizer: SGD, momentum: 0.937, weight_decay: 0.0005}
+augmentation: {hsv_h: 0.042, hsv_s: 0.5, hsv_v: 0.5, fliplr: 0.5, mosaic: 1.0, mixup: 0.3, copy_paste: 0.2, erasing: 0.1, scale: 0.5}
+loss: {box: 7.5, cls: 0.5, dfl: 1.5}
+nms: {iou: 0.45, conf: 0.25}
+pruning: {ratio: 0.3, finetune_epochs: 30, finetune_lr: 0.0005}
+batch_size: 16
+imgsz: 640
+seed: 0

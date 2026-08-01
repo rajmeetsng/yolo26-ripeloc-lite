@@ -1,0 +1,4 @@
+# Test split: 225 images (15%)
+images/test/IMG_1276.jpg
+images/test/IMG_1277.jpg
+# ... (225 entries total)

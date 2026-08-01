@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# PyTorch
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# Training runs
+runs/
+wandb/
+
+# Data (not committed - too large)
+datasets/
+*.jpg
+*.jpeg
+*.png
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+venv/

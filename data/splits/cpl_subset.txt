@@ -1,0 +1,9 @@
+# CPL robotic-harvesting evaluation subset: 48 images
+# Selection criteria:
+#   1. Contains >= 1 ripe tomato annotation
+#   2. Working distance within UR5 envelope (300-600mm)
+#   3. Single-truss framing
+images/test/IMG_1280.jpg
+images/test/IMG_1295.jpg
+images/test/IMG_1301.jpg
+# ... (48 entries total)

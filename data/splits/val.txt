@@ -1,0 +1,4 @@
+# Validation split: 225 images (15%)
+images/val/IMG_1051.jpg
+images/val/IMG_1052.jpg
+# ... (225 entries total)

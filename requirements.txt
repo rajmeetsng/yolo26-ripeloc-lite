@@ -1,0 +1,29 @@
+# YOLO26-RipeLoc Lite - Requirements
+# Python 3.10.12 tested
+# Install: pip install -r requirements.txt
+
+# Core
+torch>=2.1.0
+torchvision>=0.16.0
+ultralytics>=8.3.0
+numpy>=1.24.0
+opencv-python>=4.8.0
+Pillow>=10.0.0
+
+# Training & Evaluation
+scipy>=1.11.0
+scikit-learn>=1.3.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+pandas>=2.0.0
+tqdm>=4.65.0
+
+# Export
+onnx>=1.14.0
+onnxruntime>=1.16.0
+
+# Optional: TensorRT (for edge deployment)
+# tensorrt>=8.6.0
+
+# Reproducibility
+pyyaml>=6.0
